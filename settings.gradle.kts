@@ -14,7 +14,7 @@ dependencyResolutionManagement {
         maven {
             url = uri("https://maven.pkg.github.com/TrustTunnel/TrustTunnelClient")
             credentials {
-                username = ""
+                username = "onetapvpn-ci"
                 password = providers.gradleProperty("gpr.key")
                     .orElse(providers.environmentVariable("GPR_KEY"))
                     .getOrElse("")
