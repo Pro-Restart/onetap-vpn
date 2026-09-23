@@ -21,6 +21,11 @@ import androidx.compose.ui.unit.sp
 import com.onetapvpn.engine.AppVpnService
 import com.onetapvpn.model.ServerProfile
 import com.onetapvpn.parser.LinkParser
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.content.pm.PackageManager
+import android.os.Build
+import androidx.core.app.ActivityCompat
 
 class MainActivity : ComponentActivity() {
 
@@ -50,9 +55,13 @@ class MainActivity : ComponentActivity() {
         }
         pendingProfile = null
     }
-
+    companion object {
+        private const val REQ_POST_NOTIFICATIONS = 1001
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        createNotificationChannel()
+        requestNotificationPermission()
         setContent {
             MaterialTheme {
                 Surface(modifier = Modifier.fillMaxSize()) {
@@ -105,6 +114,33 @@ class MainActivity : ComponentActivity() {
     private fun startVpn(profile: ServerProfile) {
         AppVpnService.start(this, profile)
         statusMessageState.value = "Запуск подключения через ${profile.engine}…"
+    }
+    private fun createNotificationChannel() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            val channel = NotificationChannel(
+                "onetap_vpn",
+                "VPN",
+                NotificationManager.IMPORTANCE_LOW
+            )
+            getSystemService(NotificationManager::class.java)
+                .createNotificationChannel(channel)
+        }
+    }
+
+    private fun requestNotificationPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            if (ActivityCompat.checkSelfPermission(
+                    this,
+                    android.Manifest.permission.POST_NOTIFICATIONS
+                ) != PackageManager.PERMISSION_GRANTED
+            ) {
+                ActivityCompat.requestPermissions(
+                    this,
+                    arrayOf(android.Manifest.permission.POST_NOTIFICATIONS),
+                    REQ_POST_NOTIFICATIONS
+                )
+            }
+        }
     }
 }
 
