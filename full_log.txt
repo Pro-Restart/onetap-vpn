@@ -1,0 +1,597 @@
+--------- beginning of main
+09-23 17:54:27.547 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:27.712 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:27.822 16481 32577 D BSOHChargingDataCollector:  BSOH Sys-servce ... 
+09-23 17:54:27.822 16481 32577 D BSOHChargingDataCollector: performBatteryWork++
+09-23 17:54:27.822 16481 32577 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@dab1fed
+09-23 17:54:27.823 16481 32577 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+09-23 17:54:27.834 16481 32577 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:3.704, current:0.209375, soc:0.17, temperature:32.6, status:2, timestamp:1790175267834, voltage_chg:null}
+09-23 17:54:27.835 16481 32577 D BSOHChargingDataCollector: performBatteryWork--
+09-23 17:54:27.860 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:27.901 16197 16217 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 1026413881  [16204 / 29103]    HINT :      list : [TID_LOW_LATENCY / 0] [TID / 8699] [TID / 8700] [TID / 8657] [TID / 8688] 
+09-23 17:54:27.901 16197 16217 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 1026459190  [16204 / 29104]    HINT :      list : [UCLAMP_MIN_BOOST / 0] [TID / 8699] [TID / 8700] [TID / 8657] [TID / 8688] 
+09-23 17:54:27.902 16197 16217 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 1026413881
+09-23 17:54:27.902 16197 16217 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 1026459190
+09-23 17:54:27.921 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:28.050 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:28.110 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:28.126 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:28.133 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:28.147 17863  6516 D NxpPropExtn: detectExtField: exit
+--------- beginning of system
+09-23 17:54:28.218 16481 16741 D PowerManagerService: UserActivityStateListenerState: 0
+09-23 17:54:28.311 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:28.456  1181  1181 D io_stats: !@   8,0 r 268903817 5599198764 w 81724430 1201392920 d 12742059 1030890664 f 2761050 6456640 iot 50931428 0 th 0 0 0 pt 0 inp 0 0 1468024.435
+09-23 17:54:28.457  1181  1181 D io_stats: !@ Read_top(KB): kworker/u16:13(13745) 80
+09-23 17:54:28.457  1181  1181 D io_stats: !@ Write_top(KB): kworker/u16:0(22999) 160 roid.honeyboard(13282) 160 soft.appmanager(4343) 16
+09-23 17:54:28.460 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:28.521 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:28.650 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:28.696 18776 18885 I RequestManager_FLP: onOpChanged, op=0 / packageName=com.sec.android.app.launcher
+09-23 17:54:28.709 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:28.726 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:28.733 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:28.747 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:28.823 16481 32577 D BSOHChargingDataCollector:  BSOH Sys-servce ... 
+09-23 17:54:28.823 16481 32577 D BSOHChargingDataCollector: performBatteryWork++
+09-23 17:54:28.823 16481 32577 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@dab1fed
+09-23 17:54:28.823 16481 32577 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+09-23 17:54:28.835 16481 32577 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:3.704, current:0.209375, soc:0.17, temperature:32.6, status:2, timestamp:1790175268835, voltage_chg:null}
+09-23 17:54:28.835 16481 32577 D BSOHChargingDataCollector: performBatteryWork--
+09-23 17:54:28.911 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:29.061 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:29.121 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:29.198  1694 32490 I sensors-hal: handle_sns_std_sensor_event:90, light_cct: ts = 2992441974495022 ns; value = [47, 47, 192, 204, 27, 236, 92, 86, 22944, 93]
+09-23 17:54:29.250 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:29.309 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:29.326 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:29.333 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:29.347 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:29.361 16481 16689 I ActivityManager: Changes in 10119 7 to 15, 384 to 256
+09-23 17:54:29.512 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:29.660 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:29.718  1788  1802 D HeatmapThread: Updated plugType via uevent: 2
+09-23 17:54:29.721 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:29.725  1741  1772 E BatteryDump: !@new_battery_dump : 3704,229,475,550,17,326,319,354,326,0,337,354,0,Charging,NO_CHARGING,Normal,Good,USB,1,Normal,0,0,9300,0x0,0x10000,0x0,0,0,0000,0000,00000000,0,0,0,0,706,3688,1739,980,0,
+09-23 17:54:29.727 19267 19296 V OsAgent : broadcastSystemEvent - 7
+09-23 17:54:29.728 19267 19296 V OsAgent : broadcastSystemEvent - 7
+09-23 17:54:29.728 19267 19296 V OsAgent : broadcastSystemEvent - 7
+09-23 17:54:29.728 19267 19296 V OsAgent : broadcastSystemEvent - 7
+09-23 17:54:29.728 19267 19296 V OsAgent : broadcastSystemEvent - 7
+09-23 17:54:29.728 19267 19296 V OsAgent : broadcastSystemEvent - 7
+09-23 17:54:29.729 16180 15165 I CameraService: onUidStateChanged: uid=10257, procState is changed. (3 -> 5)
+09-23 17:54:29.734 16208 16208 I seh_thermal_service: getTemperaturesWithType SehTemperatureType: 3
+09-23 17:54:29.735  1741  1741 I sehhealth-service: updateLrpSysfs: write: 337
+09-23 17:54:29.824 16481 32577 D BSOHChargingDataCollector:  BSOH Sys-servce ... 
+09-23 17:54:29.824 16481 32577 D BSOHChargingDataCollector: performBatteryWork++
+09-23 17:54:29.824 16481 32577 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@dab1fed
+09-23 17:54:29.825 16481 32577 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+09-23 17:54:29.825 16481 20118 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 19033, isSameBssidAndFreq true
+09-23 17:54:29.826 16481 17097 E SemWifiLinkQualityMonitor: Too old or invalid TMI: currentTime=1790175269826 lastDateWindow=1790049144000
+09-23 17:54:29.835 16481 32577 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:3.702, current:0.229687, soc:0.17, temperature:32.6, status:2, timestamp:1790175269835, voltage_chg:null}
+09-23 17:54:29.835 16481 32577 D BSOHChargingDataCollector: performBatteryWork--
+09-23 17:54:29.848 16481 16913 D SemInputMotionEventDispatcher: registerMotionEventListener: already registered: com.samsung.android.hardware.secinputdev.taas.ExternalApi$5@5168236
+09-23 17:54:29.850 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:29.910 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:29.926 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:29.933 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:29.947 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:30.111 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:30.260 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:30.321 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:30.367 18776 18885 I RequestManager_FLP: onOpChanged, op=0 / packageName=com.osp.app.signin
+09-23 17:54:30.389 17233 17268 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+09-23 17:54:30.392 17233 17268 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+09-23 17:54:30.392 17233 17268 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(1)
+09-23 17:54:30.392 17233 17268 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(1) lastNotifiedSignalStrength level: 0
+09-23 17:54:30.392 17233 17268 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(1) currSignalStrength level: 0
+09-23 17:54:30.393 17233 17268 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+09-23 17:54:30.393 17233 17268 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+09-23 17:54:30.394 17233 17268 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(4)
+09-23 17:54:30.394 17233 17268 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(4) lastNotifiedSignalStrength level: 0
+09-23 17:54:30.394 17233 17268 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(4) currSignalStrength level: 0
+09-23 17:54:30.450 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:30.458 16481 17096 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+09-23 17:54:30.459 16481 17096 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+09-23 17:54:30.459  1181  1181 D io_stats: !@   8,0 r 268903817 5599198764 w 81724432 1201392928 d 12742059 1030890664 f 2761050 6456640 iot 50931436 0 th 0 0 0 pt 0 inp 0 0 1468026.438
+09-23 17:54:30.460 16481 17096 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+09-23 17:54:30.460 16481 17096 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+09-23 17:54:30.462 16481 17096 I SemWifiIntelligentTrainingManager: Tr. cond. check: true / 0 (2) / true / 0 (1)
+09-23 17:54:30.463 16481 17096 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+09-23 17:54:30.463 16481 17096 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+09-23 17:54:30.463 16481 17096 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+09-23 17:54:30.463 16481 17096 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+09-23 17:54:30.509 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:30.526 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:30.533 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:30.547 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:30.561  6732  6732 I wpa_supplicant: Heartbeat 729
+09-23 17:54:30.712 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:30.799  1694 21967 I sensors-hal: handle_sns_std_sensor_event:131, [SSC_LIGHT] A: 45(45),c:112,b:236,m:13,cl:92,l:32,s:44,l0:22848,l1:1344,s0:7500,s1:0,acl:3,opr:0.79,f(r):80,u(bl):74,if:0,wi:0,si:93,po:0(N:0)
+09-23 17:54:30.825 16481 32577 D BSOHChargingDataCollector:  BSOH Sys-servce ... 
+09-23 17:54:30.826 16481 32577 D BSOHChargingDataCollector: performBatteryWork++
+09-23 17:54:30.826 16481 32577 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@dab1fed
+09-23 17:54:30.826 16481 32577 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+09-23 17:54:30.838 16481 32577 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:3.704, current:0.250781, soc:0.17, temperature:32.6, status:2, timestamp:1790175270838, voltage_chg:null}
+09-23 17:54:30.838 16481 32577 D BSOHChargingDataCollector: performBatteryWork--
+09-23 17:54:30.860 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:30.867 20575  1909 I NearbyMediums: No BLE Fast/GATT advertisements found in the latest cycle.
+09-23 17:54:30.868 20575  1909 I NearbyMediums: Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbySharing}
+09-23 17:54:30.922 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:30.983 16481 18785 I NSLocationMonitor: getGPSUsingApps() called
+09-23 17:54:30.984 18776 18845 I NSLocationManager_FLP: getGPSUsingApps, No change
+09-23 17:54:30.990 16481 18785 D FreecessHandler: skipping freeze com.onetapvpn(10542) result : 12
+09-23 17:54:31.050 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:31.110 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:31.126 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:31.133 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:31.147 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:31.312 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:31.345 16481 18888 D PowerManagerService: [api] setMasterBrightnessLimit : lowerLimit : -1  upperLimit : 1275  mMasterBrightnessLimitPeriod : 200 (uid: 1000 pid: 19583)
+09-23 17:54:31.346 16481 16741 D PowerManagerService: [api] BrightnessLimitRunnable done
+09-23 17:54:31.460 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:31.521 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:31.650 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:31.710 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:31.726 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:31.733 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:31.747 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:31.761  1694 32490 I sensors-hal: handle_sns_std_sensor_event:90, light_cct: ts = 2992444534493512 ns; value = [44, 44, 192, 204, 25, 236, 92, 82, 22560, 0]
+09-23 17:54:31.826 16481 32577 D BSOHChargingDataCollector:  BSOH Sys-servce ... 
+09-23 17:54:31.826 16481 32577 D BSOHChargingDataCollector: performBatteryWork++
+09-23 17:54:31.826 16481 32577 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@dab1fed
+09-23 17:54:31.827 16481 32577 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+09-23 17:54:31.838 16481 32577 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:3.703, current:0.199218, soc:0.17, temperature:32.6, status:2, timestamp:1790175271838, voltage_chg:null}
+09-23 17:54:31.838 16481 32577 D BSOHChargingDataCollector: performBatteryWork--
+09-23 17:54:31.913 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:32.061 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:32.075 32514 32514 I adbd    : adbd service requested 'shell,v2:export ANDROID_LOG_TAGS=''; exec logcat'
+09-23 17:54:32.121 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:32.250 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:32.310 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:32.326 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:32.333 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:32.347 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:32.460  1181  1181 D io_stats: !@ Write_top(KB): vendor.samsung.(1741) 8
+09-23 17:54:32.511 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:32.660 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:32.721 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:32.827 16481 32577 D BSOHChargingDataCollector:  BSOH Sys-servce ... 
+09-23 17:54:32.827 16481 32577 D BSOHChargingDataCollector: performBatteryWork++
+09-23 17:54:32.827 16481 32577 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@dab1fed
+09-23 17:54:32.831 16481 32577 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+09-23 17:54:32.845 16481 32577 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:3.705, current:0.199218, soc:0.17, temperature:32.6, status:2, timestamp:1790175272845, voltage_chg:null}
+09-23 17:54:32.845 16481 32577 D BSOHChargingDataCollector: performBatteryWork--
+09-23 17:54:32.850 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:32.857 16481 20118 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 19034, isSameBssidAndFreq true
+09-23 17:54:32.858 16481 17097 E SemWifiLinkQualityMonitor: Too old or invalid TMI: currentTime=1790175272858 lastDateWindow=1790049144000
+09-23 17:54:32.909 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:32.926 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:32.933 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:32.947 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:33.111 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:33.240 19583 20373 I SDHMS:x : SIOP:: AP:354 BAT:326 USB:319 CHG:353 PA:356 WIFI:347 CF:336 BLK:0 SUBBAT:0 LRPTHM:331 SKIN:338 SKINF:325 SKINB:338 LRP2:338 LRF2:325 LRB2:338 AP2:337 CHG2:336 WIFI2:337 RCV2:319 SPK2:306 FCAM:319 UPSPK:336 DNSPK:319 VAP02:353 VWIFI:347 AMB2:282 AVGCUR:93 AVGSYS:494 POWER:343
+09-23 17:54:33.260 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:33.321 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:33.328 16481 18785 I NSLocationMonitor: getGPSUsingApps() called
+09-23 17:54:33.331 18776 18845 I NSLocationManager_FLP: getGPSUsingApps, No change
+09-23 17:54:33.341 16481 18785 D FreecessHandler: skipping freeze com.google.android.documentsui(10070) result : 2
+09-23 17:54:33.406 16481 16878 D ActivityManager: freezing 26577 com.samsung.android.lool
+09-23 17:54:33.411 16481 16878 D ActivityManager: freezing 26617 com.samsung.android.sm.provider
+09-23 17:54:33.450 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:33.509 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:33.526 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:33.533 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:33.547 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:33.712 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:33.721 16481 16897 D InputReader: Btn_touch(7): value=1 when=1468029.699838
+09-23 17:54:33.721 16481 16897 I InputReader: Touch event's action is 0x0 (id=6, t=0) [pCnt=1, s=0.40943 ] when=1468029.699838
+09-23 17:54:33.725 16481 16896 I InputDispatcher: Delivering touch to (17646): action: 0x4, f=0x0, d=0, 'c18e59d', t=1 
+09-23 17:54:33.725 16481 16896 I InputDispatcher: Delivering touch to (2493): action: 0x0, f=0x0, d=0, '57042a7', t=1 
+09-23 17:54:33.725 16481 16896 D PowerManagerService: [api] userActivityFromNative : touch displayId=0 eventTime=1468029699
+09-23 17:54:33.726  2493  2493 I VRI[MainActivity]@6005ffc: ViewPostIme pointer 0
+09-23 17:54:33.726 16481 16896 D PowerManagerService: UserActivityStateListenerState: 1
+09-23 17:54:33.727 16481 16600 I GestureDetector: obtain mCurrentDownEvent. id: 508779468 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:17 com.android.server.wm.PointerEventDispatcher.onInputEvent:51 android.view.InputEventReceiver.dispatchInputEvent:369 
+09-23 17:54:33.727 16481 16600 I GestureDetector: obtain mCurrentDownEvent. id: 508779468 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:13 com.android.server.wm.PointerEventDispatcher.onInputEvent:51 android.view.InputEventReceiver.dispatchInputEvent:369 
+09-23 17:54:33.729 16481 16600 I GestureDetector: obtain mCurrentMotionEventRaw. action: 2 id: 313971269
+09-23 17:54:33.729 16481 16600 I GestureDetector: obtain mCurrentMotionEventRaw. action: 2 id: 313971269
+09-23 17:54:33.732 19583 19583 I SemDvfsHyPerManager: acquire hyper - TATouchBoost/19583@29, type = -999
+09-23 17:54:33.732  2493  2493 I VRI[MainActivity]@6005ffc: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@6005ffc
+09-23 17:54:33.732 19583 19583 I SemDvfsHyPerManager: acquire hyper - TA_TOUCH_SHARE/19583@30, type = -999
+09-23 17:54:33.733  1796  3872 I SurfaceFlinger: Current= 120, Period= 120, Distance= 0
+09-23 17:54:33.733 16197 16217 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 192325107  [19583 / 29]    HINT :      list : [TABoost / 1] [TIMEOUT / 1500] 
+09-23 17:54:33.733  2493  2493 D Choreographer: BBA2 receive callback when in bg : 0
+09-23 17:54:33.734 16197 16217 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 192344721  [19583 / 30]    HINT : TA_TOUCH_SHARE    list : [TIMEOUT / 1500] 
+09-23 17:54:33.738  1796  1796 I SurfaceFlinger: SFWD update time=1468029717492887
+09-23 17:54:33.738  1796  1796 I SurfaceFlinger: [com.onetapvpn/com.onetapvpn.ui.MainActivity$_2493#527997] setFrameRateCategory: HighHint
+09-23 17:54:33.740  1796  2318 I SurfaceFlinger: Current= 120, Period= 120, Distance= 120
+09-23 17:54:33.743  2493  2655 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+09-23 17:54:33.748  2493  2655 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+09-23 17:54:33.759  2493  2655 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+09-23 17:54:33.786 16481 16897 D InputReader: Btn_touch(7): value=0 when=1468029.765242
+09-23 17:54:33.786 16481 16897 I InputReader: Touch event's action is 0x1 (id=6, t=0) [pCnt=1, s=] when=1468029.765242
+09-23 17:54:33.787 16481 16896 I InputDispatcher: Delivering touch to (2493): action: 0x1, f=0x0, d=0, '57042a7', t=1 
+09-23 17:54:33.787  2493  2493 I VRI[MainActivity]@6005ffc: ViewPostIme pointer 1
+09-23 17:54:33.795 16481 16809 I ActivityManager: Background started FGS: Allowed [callingPackage: com.onetapvpn; callingUid: 10542; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { xflg=0x4 cmp=com.onetapvpn/.engine.AppVpnService (has extras) }; code:PROC_STATE_TOP; tempAllowListReason:<null>; allowWiu:12; targetSdkVersion:34; callerTargetSdkVersion:34; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+09-23 17:54:33.821 16481 18888 W ForegroundServiceTypeLoggerModule: Foreground service start for UID: 10542 does not have any types
+09-23 17:54:33.821 17646 18650 D SecFgsManagerController: onForegroundStateChanged: [dialog:false]:[isForeground:true]:[packageName:com.onetapvpn]:[token:android.os.BinderProxy@6b6aaf]:[userId:0]
+09-23 17:54:33.821 16481 17069 D BackgroundInstallControlService: Package event received: 0
+09-23 17:54:33.822 17646 18650 D SecFgsManagerController: updateUiControl[com.onetapvpn]: 68
+09-23 17:54:33.822 17646 18650 D SecFgsManagerController: updateNumberOfVisibleRunningPackagesLocked: 2
+09-23 17:54:33.825 16481 16690 E NotificationService: isPkgBlocked = true
+09-23 17:54:33.825 16481 16690 E NotificationService: isRecordBlocked = false
+09-23 17:54:33.825 16481 16690 E NotificationService: Suppressing notification from package com.onetapvpn by user request.
+09-23 17:54:33.828  2493  2877 I com.onetapvpn: hiddenapi: Accessing hidden method Landroid/app/AppGlobals;->getInitialApplication()Landroid/app/Application; (runtime_flags=0, domain=platform, api=unsupported) from Lch/qos/logback/core/android/AndroidContextUtil; (domain=app, TargetSdkVersion=34) using reflection: allowed
+09-23 17:54:33.829 16481 32577 D BSOHChargingDataCollector:  BSOH Sys-servce ... 
+09-23 17:54:33.829 16481 32577 D BSOHChargingDataCollector: performBatteryWork++
+09-23 17:54:33.829 16481 32577 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@dab1fed
+09-23 17:54:33.829 16481 32577 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+09-23 17:54:33.837 16481 32577 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:3.703, current:0.250781, soc:0.17, temperature:32.7, status:2, timestamp:1790175273837, voltage_chg:null}
+09-23 17:54:33.837 16481 32577 D BSOHChargingDataCollector: performBatteryWork--
+09-23 17:54:33.860 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:33.878  2493  2877 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4744)] [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4912)] [android.net.ConnectivityManager.registerNetworkCallback(ConnectivityManager.java:5329)] [android.net.ConnectivityManager.registerNetworkCallback(ConnectivityManager.java:5299)] [com.adguard.trusttunnel.VpnService$Companion.startNetworkManager(VpnService.kt:97)] [com.adguard.trusttunnel.VpnService$Companion.initialize(VpnService.kt:158)] [com.onetapvpn.engine.TrustTunnelEngine$connect$2.invokeSuspend(TrustTunnelEngine.kt:25)] [kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)] [kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)] [kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:111)] [kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:99)] [kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)] [kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:811)] [kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:715)] [kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:702)]
+09-23 17:54:33.881 16481 16999 D ConnectivityService: Rematched networks [computed 0ms] [applied 1ms] [issued 0]
+09-23 17:54:33.881 16481 16999 D ConnectivityService: NetworkReassignment : no changes
+09-23 17:54:33.884  2493  2877 D nativeloader: Load /data/app/~~vZXg9h4vn2zixGkOhWuqsw==/com.onetapvpn-gFEoJ8qIeLGp7v6jgwEqqQ==/base.apk!/lib/arm64-v8a/libtrusttunnel_android.so using class loader ns clns-9 (caller=/data/app/~~vZXg9h4vn2zixGkOhWuqsw==/com.onetapvpn-gFEoJ8qIeLGp7v6jgwEqqQ==/base.apk!classes8.dex): ok
+09-23 17:54:33.884  2493  2877 D TrustTunnelEngine: Decoded config length=263
+09-23 17:54:33.884  2493  2885 D TrustTunnelEngine: TrustTunnel state=0
+09-23 17:54:33.886 16481 18888 I ActivityManager: Background started FGS: Allowed [callingPackage: com.onetapvpn; callingUid: 10542; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { act=Start xflg=0x4 cmp=com.onetapvpn/com.adguard.trusttunnel.VpnService (has extras) }; code:PROC_STATE_TOP; tempAllowListReason:<null>; allowWiu:12; targetSdkVersion:34; callerTargetSdkVersion:34; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+09-23 17:54:33.889 16481 18888 W ForegroundServiceTypeLoggerModule: Foreground service start for UID: 10542 does not have any types
+09-23 17:54:33.889 17646 18650 D SecFgsManagerController: onForegroundStateChanged: [dialog:false]:[isForeground:true]:[packageName:com.onetapvpn]:[token:android.os.BinderProxy@a97eebc]:[userId:0]
+09-23 17:54:33.889 16481 17069 D BackgroundInstallControlService: Package event received: 0
+09-23 17:54:33.890 16481 16690 E NotificationService: isPkgBlocked = true
+09-23 17:54:33.890 16481 16690 E NotificationService: isRecordBlocked = false
+09-23 17:54:33.890 16481 16690 E NotificationService: Suppressing notification from package com.onetapvpn by user request.
+09-23 17:54:33.893  2493  2877 I NotificationManager: com.onetapvpn: notify(1, null, Notification(channel=onetap_vpn shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT color=0x00000000 vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+09-23 17:54:33.894  2493  2877 D NotificationManager: BOOTING pkg =com.onetapvpn mBlockedChannelsForOverflowNoti=[]
+09-23 17:54:33.895 16481 18888 E NotificationService: isPkgBlocked = true
+09-23 17:54:33.895 16481 18888 E NotificationService: isRecordBlocked = false
+09-23 17:54:33.895 16481 18888 E NotificationService: Suppressing notification from package com.onetapvpn by user request.
+09-23 17:54:33.895  2493  2877 I AppVpnService: Подключено через TRUSTTUNNEL
+09-23 17:54:33.921 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:34.027 16481 16481 I GestureDetector: handleMessage TAP
+09-23 17:54:34.027 16481 16600 I GestureDetector: handleMessage TAP
+09-23 17:54:34.050 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:34.109 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:34.126 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:34.133 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:34.147 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:34.311 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:34.318  1694 32490 I sensors-hal: handle_sns_std_sensor_event:90, light_cct: ts = 2992447094487887 ns; value = [45, 45, 192, 204, 25, 236, 92, 82, 22688, 0]
+09-23 17:54:34.461 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:34.461  1181  1181 D io_stats: !@   8,0 r 268903827 5599198848 w 81724440 1201392968 d 12742059 1030890664 f 2761050 6456640 iot 50931468 0 th 0 0 0 pt 0 inp 0 0 1468030.440
+09-23 17:54:34.522 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:34.558 13282 13282 I HBD     : e onChange propertyId=7 
+09-23 17:54:34.566 13282 13282 I HBD     : a mSubTypeCount : 1 
+09-23 17:54:34.568 13282 13282 I HBD     : a mSubTypeCount : 1 
+09-23 17:54:34.568 13282 13282 I HBD     : g getVoiceTrigger - GoogleImeTrigger 
+09-23 17:54:34.650 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:34.713 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:34.727 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:34.733 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:34.747 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:34.832 16481 32577 D BSOHChargingDataCollector:  BSOH Sys-servce ... 
+09-23 17:54:34.832 16481 32577 D BSOHChargingDataCollector: performBatteryWork++
+09-23 17:54:34.832 16481 32577 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@dab1fed
+09-23 17:54:34.832 16481 32577 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+09-23 17:54:34.843 16481 32577 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:3.702, current:0.142968, soc:0.17, temperature:32.7, status:2, timestamp:1790175274843, voltage_chg:null}
+09-23 17:54:34.844 16481 32577 D BSOHChargingDataCollector: performBatteryWork--
+09-23 17:54:34.911 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:35.060 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:35.121 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:35.236 16197  2872 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 192325107
+09-23 17:54:35.237 16197  2875 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 192344721
+09-23 17:54:35.250 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:35.279  1694 21967 I sensors-hal: handle_sns_std_sensor_event:131, [SSC_LIGHT] A: 45(45),c:112,b:236,m:13,cl:92,l:33,s:47,l0:22880,l1:1344,s0:8000,s1:0,acl:3,opr:0.79,f(r):80,u(bl):74,if:0,wi:0,si:0,po:0(N:0)
+09-23 17:54:35.309 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:35.326 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:35.333 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:35.347 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:35.460 13282 13282 I HBD     : e onChange propertyId=7 
+09-23 17:54:35.462 13282 13282 I HBD     : a mSubTypeCount : 1 
+09-23 17:54:35.464 13282 13282 I HBD     : a mSubTypeCount : 1 
+09-23 17:54:35.464 13282 13282 I HBD     : g getVoiceTrigger - GoogleImeTrigger 
+09-23 17:54:35.511 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:35.660 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:35.667 19583 19583 I SDHMS:LOAD: type: LoadsFreqs, value: 3:0:0:729599:1248000:0:734207:3148800:0:387:422:0
+09-23 17:54:35.721 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:35.833 16481 32577 D BSOHChargingDataCollector:  BSOH Sys-servce ... 
+09-23 17:54:35.833 16481 32577 D BSOHChargingDataCollector: performBatteryWork++
+09-23 17:54:35.833 16481 32577 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@dab1fed
+09-23 17:54:35.834 16481 32577 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+09-23 17:54:35.844 16481 32577 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:3.705, current:0.142968, soc:0.17, temperature:32.7, status:2, timestamp:1790175275844, voltage_chg:null}
+09-23 17:54:35.844 16481 32577 D BSOHChargingDataCollector: performBatteryWork--
+09-23 17:54:35.850 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:35.851 16481 16878 D ActivityManager: freezing 8657 com.google.android.documentsui
+09-23 17:54:35.857 16481 16878 D ActivityManager: FCA:FCA recordedFileRss = 91944, and changeinRss = 4500
+09-23 17:54:35.859 16481 16878 D ActivityManager: freezing 20968 com.android.externalstorage
+09-23 17:54:35.871 16481 16999 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+09-23 17:54:35.875 16481 16999 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+09-23 17:54:35.875 16481 16999 D InetDiagMessage: Destroyed live tcp sockets for uids={10070} in 9ms
+09-23 17:54:35.879 16481 16999 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+09-23 17:54:35.883 16481 16999 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+09-23 17:54:35.883 16481 16999 D InetDiagMessage: Destroyed live tcp sockets for uids={10076} in 8ms
+09-23 17:54:35.889 16481 20118 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 19035, isSameBssidAndFreq true
+09-23 17:54:35.890 16481 17097 E SemWifiLinkQualityMonitor: Too old or invalid TMI: currentTime=1790175275890 lastDateWindow=1790049144000
+09-23 17:54:35.909 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:35.926 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:35.933 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:35.947 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:36.111 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:36.260 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:36.323 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:36.440 17233 17268 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+09-23 17:54:36.441 17233 17268 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+09-23 17:54:36.442 17233 17268 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(4)
+09-23 17:54:36.443 17233 17268 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(4) lastNotifiedSignalStrength level: 0
+09-23 17:54:36.443 17233 17268 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(4) currSignalStrength level: 0
+09-23 17:54:36.450 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:36.462  1181  1181 D io_stats: !@   8,0 r 268903827 5599198848 w 81724449 1201392996 d 12742059 1030890664 f 2761050 6456642 iot 50931480 0 th 0 0 0 pt 0 inp 0 0 1468032.441
+09-23 17:54:36.462  1181  1181 D io_stats: !@ Read_top(KB): kworker/u16:0(22999) 80 kworker/u16:7(31282) 4
+09-23 17:54:36.462  1181  1181 D io_stats: !@ Write_top(KB): kworker/u16:0(22999) 28 soft.appmanager(4343) 16 com.onetapvpn(2493) 8
+09-23 17:54:36.509 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:36.526 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:36.533 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:36.547 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:36.676  1694 21967 I sensors-hal: handle_sns_client_event:190, auto_rotation_debug_2 mode,255, type,1,0 acc,-0.134,0.086,9.988, ar,0, ver,15, pedo,1,e,1,i,5
+09-23 17:54:36.713 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:36.728 16481 16741 D PowerManagerService: UserActivityStateListenerState: 0
+09-23 17:54:36.804  2493  2493 I VRI[MainActivity]@6005ffc: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@6005ffc
+09-23 17:54:36.807  1796  1796 I SurfaceFlinger: [com.onetapvpn/com.onetapvpn.ui.MainActivity$_2493#527997] setFrameRateCategory: NoPreference
+09-23 17:54:36.812  1796  2318 I SurfaceFlinger: Current= 120, Period= 120, Distance= 0
+09-23 17:54:36.820  1796  2318 I SurfaceFlinger: Current= 120, Period= 120, Distance= 120
+09-23 17:54:36.834 16481 32577 D BSOHChargingDataCollector:  BSOH Sys-servce ... 
+09-23 17:54:36.835 16481 32577 D BSOHChargingDataCollector: performBatteryWork++
+09-23 17:54:36.835 16481 32577 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@dab1fed
+09-23 17:54:36.835 16481 32577 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+09-23 17:54:36.847 16481 32577 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:3.702, current:0.207031, soc:0.17, temperature:32.7, status:2, timestamp:1790175276847, voltage_chg:null}
+09-23 17:54:36.847 16481 32577 D BSOHChargingDataCollector: performBatteryWork--
+09-23 17:54:36.860 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:36.879  1694 32490 I sensors-hal: handle_sns_std_sensor_event:90, light_cct: ts = 2992449654484241 ns; value = [44, 44, 192, 204, 25, 236, 92, 80, 22592, 0]
+09-23 17:54:36.921 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:36.994 16481 18785 D FreecessHandler: skipping freeze com.onetapvpn(10542) result : 41
+09-23 17:54:36.995 16481 18785 D FreecessHandler: stop trying to freeze com.onetapvpn
+09-23 17:54:37.050 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:37.109 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:37.126 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:37.133 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:37.147 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:37.247 16481 17011 W DeviceStorageMonitorService: updateBroadcasts(/data) oldLevel:0, newLevel:0, seq:1
+09-23 17:54:37.249 16481 17011 D DeviceStorageMonitorService: Available File Node Number is [12204808]
+09-23 17:54:37.249 16481 17011 W DeviceStorageMonitorService: updateBroadcasts_filenode(/data) fn_oldLevel:0, fn_newLevel:0, seq:1
+09-23 17:54:37.312 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:37.460 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:37.521 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:37.650 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:37.709 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:37.710 18188 21103 I id.app.launcher: Explicit concurrent mark compact GC freed 9850KB AllocSpace bytes, 4(72KB) LOS objects, 64% free, 25MB/73MB, paused 272us,1.200ms total 93.534ms
+09-23 17:54:37.712  1796  2318 I SurfaceFlinger: id=527919 Removed Surface(name=Task=10#437484)/@0x7375762_transition-leash#527919 (217)
+09-23 17:54:37.713  1796  2318 I SurfaceFlinger: id=527920 Removed Surface(name=Task=1#437338)/@0x5467361_transition-leash#527920 (217)
+09-23 17:54:37.719  1796  2318 I SurfaceFlinger: Current= 120, Period= 120, Distance= 1
+09-23 17:54:37.720  1796  1796 I SurfaceFlinger: destroyed Surface(name=Task=1#437338)/@0x5467361_transition-leash#527920 form LifecycleManager
+09-23 17:54:37.720  1796  1796 I SurfaceFlinger: destroyed Surface(name=Task=10#437484)/@0x7375762_transition-leash#527919 form LifecycleManager
+09-23 17:54:37.720  1796  1796 I SurfaceFlinger: id=527920 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{Surface(name=Task=1#437338)/@0x5467361_transition-leash#527920 !handle z=1})
+09-23 17:54:37.720  1796  1796 I SurfaceFlinger: id=527919 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{Surface(name=Task=10#437484)/@0x7375762_transition-leash#527919 !handle z=4})
+09-23 17:54:37.721  1796  1796 I SurfaceFlinger: id=527920 Destroyed Surface(name=Task=1#437338)/@0x5467361_transition-leash#527920
+09-23 17:54:37.721  1796  1796 I SurfaceFlinger: id=527919 Destroyed Surface(name=Task=10#437484)/@0x7375762_transition-leash#527919
+09-23 17:54:37.724 18188 18238 W System  : A resource failed to call release. 
+09-23 17:54:37.724 18188 18238 W System  : A resource failed to call release. 
+09-23 17:54:37.726 18188 15021 I HoneySpace.Memory-Monitor: trimMemory 20
+09-23 17:54:37.726 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:37.727  1796  2318 I SurfaceFlinger: Current= 120, Period= 120, Distance= 120
+09-23 17:54:37.733 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:37.747 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:37.835 16481 32577 D BSOHChargingDataCollector:  BSOH Sys-servce ... 
+09-23 17:54:37.836 16481 32577 D BSOHChargingDataCollector: performBatteryWork++
+09-23 17:54:37.836 16481 32577 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@dab1fed
+09-23 17:54:37.836 16481 32577 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+09-23 17:54:37.849 16481 32577 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:3.68, current:0.232812, soc:0.17, temperature:32.7, status:2, timestamp:1790175277849, voltage_chg:null}
+09-23 17:54:37.849 16481 32577 D BSOHChargingDataCollector: performBatteryWork--
+09-23 17:54:37.862 16481 16878 D ActivityManager: FCA:Reclamation for pid: 8657
+09-23 17:54:37.911 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:38.060 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:38.068 17233 17268 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+09-23 17:54:38.069 17233 17268 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+09-23 17:54:38.070 17233 17268 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(4)
+09-23 17:54:38.070 17233 17268 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(4) lastNotifiedSignalStrength level: 0
+09-23 17:54:38.070 17233 17268 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(4) currSignalStrength level: 0
+09-23 17:54:38.121 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:38.250 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:38.310 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:38.328 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:38.333 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:38.347 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:38.511 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:38.660 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:38.721 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:38.837 16481 32577 D BSOHChargingDataCollector:  BSOH Sys-servce ... 
+09-23 17:54:38.837 16481 32577 D BSOHChargingDataCollector: performBatteryWork++
+09-23 17:54:38.837 16481 32577 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@dab1fed
+09-23 17:54:38.838 16481 32577 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+09-23 17:54:38.850 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:38.850 16481 32577 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:3.704, current:0.225, soc:0.17, temperature:32.7, status:2, timestamp:1790175278850, voltage_chg:null}
+09-23 17:54:38.850 16481 32577 D BSOHChargingDataCollector: performBatteryWork--
+09-23 17:54:38.910 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:38.926 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:38.932 16481 20118 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 19036, isSameBssidAndFreq true
+09-23 17:54:38.933 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:38.934 16481 17097 E SemWifiLinkQualityMonitor: Too old or invalid TMI: currentTime=1790175278934 lastDateWindow=1790049144000
+09-23 17:54:38.947 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:39.111 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:39.260 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:39.263  1685 21728 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-23 17:54:39.264  1685 21728 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-23 17:54:39.265  1685 21728 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+09-23 17:54:39.265  1685 21728 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-23 17:54:39.276 21635 21732 I ScanController: onScanResult to scannerId: 5- eventType=0x10, addressType=1, address=XX:XX:XX:XX:86:C6, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-99, periodicAdvInt=0x0
+09-23 17:54:39.279 20575  1909 I NearbyMediums: This GATT advertisement BleAdvertisement { version=2, socketVersion=2, isFast=true, serviceIdHash=null, data=[ 0x23 0x50 0x54 0x4a 0x47 0x11 0x32 0xfe 0xdb 0xaa 0x96 0xd3 0x76 0x6c 0x89 0xd6 0xe2 0x03 0xde 0x60 0x9a 0x67 0x47 ], deviceToken=[ 0x77 0xd7 ], rxAdvertisement=null } is a Fast Advertisement and matched UUID 0000fef3-0000-1000-8000-00805f9b34fb in fastAdvertisementServiceUuids map with serviceID NearbySharing
+09-23 17:54:39.280 20575  2538 I NearbyConnections: Found BleAdvertisement [ 0x23 0x50 0x54 0x4a 0x47 0x11 0x32 0xfe 0xdb 0xaa 0x96 0xd3 0x76 0x6c 0x89 0xd6 0xe2 0x03 0xde 0x60 0x9a 0x67 0x47 ] (with EndpointId PTJG and EndpointInfo [ 0x32 0xfe 0xdb 0xaa 0x96 0xd3 0x76 0x6c 0x89 0xd6 0xe2 0x03 0xde 0x60 0x9a 0x67 0x47 ])
+09-23 17:54:39.286 20575  2538 I NearbyConnections: ClientProxy(77700862 0p:com.google.android.gms.nearby.sharing) reporting onEndpointFound(PTJG)
+09-23 17:54:39.286 20575  2538 I NearbyConnections: ClientProxy(77700862) reporting onEndpointDistanceChanged(PTJG, UNKNOWN)
+09-23 17:54:39.288 20575  2538 I NearbySharing: NearbySharing Internal event EndpointDiscovered(endpointId=PTJG)
+09-23 17:54:39.316  1685 21728 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-23 17:54:39.316  1685 21728 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-23 17:54:39.321 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:39.343 16481 18785 I NSLocationMonitor: getGPSUsingApps() called
+09-23 17:54:39.344 18776 18845 I NSLocationManager_FLP: getGPSUsingApps, No change
+09-23 17:54:39.354 16481 18785 D FreecessHandler: skipping freeze com.google.android.documentsui(10070) result : 2
+09-23 17:54:39.438  1694 32490 I sensors-hal: handle_sns_std_sensor_event:90, light_cct: ts = 2992452214495022 ns; value = [44, 44, 192, 204, 25, 236, 92, 80, 22592, 0]
+09-23 17:54:39.450 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:39.466  1685 21707 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+09-23 17:54:39.484 16197  2700 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 136199283
+09-23 17:54:39.509 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:39.526 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:39.533 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:39.547 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:39.645 17233 17268 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+09-23 17:54:39.647 17233 17268 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+09-23 17:54:39.648 17233 17268 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(4)
+09-23 17:54:39.648 17233 17268 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(4) lastNotifiedSignalStrength level: 0
+09-23 17:54:39.648 17233 17268 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(4) currSignalStrength level: 0
+09-23 17:54:39.712 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:39.838 16481 32577 D BSOHChargingDataCollector:  BSOH Sys-servce ... 
+09-23 17:54:39.838 16481 32577 D BSOHChargingDataCollector: performBatteryWork++
+09-23 17:54:39.838 16481 32577 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@dab1fed
+09-23 17:54:39.839 16481 32577 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+09-23 17:54:39.856 16481 32577 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:3.705, current:0.225, soc:0.17, temperature:32.7, status:2, timestamp:1790175279856, voltage_chg:null}
+09-23 17:54:39.857 16481 32577 D BSOHChargingDataCollector: performBatteryWork--
+09-23 17:54:39.860 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:39.883  1788  1802 D HeatmapThread: Updated plugType via uevent: 2
+09-23 17:54:39.890  1741  1772 E BatteryDump: !@new_battery_dump : 3705,225,475,550,17,327,319,351,327,0,337,351,0,Charging,NO_CHARGING,Normal,Good,USB,1,Normal,0,0,9300,0x0,0x10000,0x0,0,0,0000,0000,00000000,0,0,0,0,706,3688,1740,980,0,
+09-23 17:54:39.891 16481 16809 D [SS]BattFunctions: [sendRemainingChargingTimeChangedIntent]remainingChargingTime:30620 ,mLastRemainingChargingTime:30660
+09-23 17:54:39.891 16208 16208 I seh_thermal_service: getTemperaturesWithType SehTemperatureType: 3
+09-23 17:54:39.891  1741  1741 I sehhealth-service: updateLrpSysfs: write: 338
+09-23 17:54:39.893 17646 17646 I AODBatteryManager: updateBatteryData: ACTION_BATTERY_CHANGED: false, isSleepModeChanged:false ,isRemainingTimeChanged: true, isUSBRestriction: false
+09-23 17:54:39.894 17646 17646 I ChargingInfoManager: updateChargingInfo: newState = AOD ChargingInfo [mState=BATTERY_AND_REMAIN_TIME, mIsCharging=true, mIsPlugged=true, mIsFullyCharged=false, mIsBatteryProtectMode=false, mBetteryLevel=17, mBetteryProtectModeType0, mIsSlowChargingfalse], oldState = AOD ChargingInfo [mState=BATTERY_AND_REMAIN_TIME, mIsCharging=true, mIsPlugged=true, mIsFullyCharged=false, mIsBatteryProtectMode=false, mBetteryLevel=17, mBetteryProtectModeType0, mIsSlowChargingfalse]
+09-23 17:54:39.894 17646 17646 D PowerUI : Remaining charging time : 30620
+09-23 17:54:39.895 17646 17646 D PowerUI : Charging time is changed, check charging notification
+09-23 17:54:39.897 17646 17646 D PowerUI.Notification: showChargingNotice - Battery Level : 17 -> 17, Charging Type : 11 -> 11, Charging Time : 30660 -> 30620, Maximum protection : false -> false, Maximum threshold : 80 -> 80
+09-23 17:54:39.902 17646 17646 I NotificationManager: com.android.systemui: notify(2114586824, charging_state, Notification(channel=CHR shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=sys groupKey=CHARGING vis=PUBLIC semFlags=0x0 semPriority=0 semMissedCount=0 semScenarioType=0)) as user
+09-23 17:54:39.907 16481 16809 W PermissionService: getPermissionFlags: Unknown user -1
+09-23 17:54:39.907 16481 16809 W PermissionService: getPermissionFlags: Unknown user -1
+09-23 17:54:39.921 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:40.050 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:40.109 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:40.114 16481 16481 I Telecom : SamsungTelecomServiceImpl : isInManagedCall - callingPackage : android / callingUser : UserHandle{0} / hasCrossUserAccess : true
+09-23 17:54:40.126 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:40.133 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:40.144 16481 16698 W ProcessStats: Tracking association SourceState{4d0ae8f system/1000 BFgs #775379} whose proc state 4 is better than process ProcessState{b8184cc rk.android.app.lockscreen/10533 pkg=rk.android.app.lockscreen} proc state 5 (16 skipped)
+09-23 17:54:40.148 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:40.150  1796  2318 I SurfaceFlinger: Current= 120, Period= 120, Distance= 0
+09-23 17:54:40.152 18188 18600 I HoneySpace.NotificationListener: onNotificationPosted com.android.systemui: -1|com.android.systemui|2114586824|charging_state|10048: 0
+09-23 17:54:40.153 18188 18600 I HoneySpace.NotificationListener: invalid notification: com.android.systemui UserHandle{-1}: canShowBadge is false
+09-23 17:54:40.154 18188 15021 I HoneySpace.BadgeDataSourceImpl: Get notification count. PK(p='com.vkontakte.android', u=UserHandle{0}) - forceBadgeCount: false, notification listener: 1, badge provider: 18
+09-23 17:54:40.158  1796  2318 I SurfaceFlinger: Current= 120, Period= 120, Distance= 120
+09-23 17:54:40.164 17646 17646 D SubscreenNotificationListCoordinator: onAfterRenderList() isSubScreen = false, pluginLockMode = 0, doNotShowOnCover = false
+09-23 17:54:40.165 17646 17646 I DateTimeView: getTimeFormat
+09-23 17:54:40.166 17646 17646 I LockscreenNotificationIconsOnlyController: onNotificationInfoUpdated 0
+09-23 17:54:40.166 17646 17646 I AODNotificationManager: updateNotification() 
+09-23 17:54:40.167 17646 17646 D PluginAODManager: onNotificationInfoUpdated() 0
+09-23 17:54:40.167 17646 17646 I AODNotificationManager: updateVisibleNotifications: 0
+09-23 17:54:40.312 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:40.345 17646 17646 D Bubbles : onEntryUpdated : shouldBubbleUp=false ,key=-1|com.android.systemui|2114586824|charging_state|10048
+09-23 17:54:40.346 17646 17646 D InterruptionStateProvider:  no Heads up : edgelighting enabled app. -1|com.android.systemui|2114586824|charging_state|10048
+09-23 17:54:40.347 17646 17646 I {OngoingActivityController}: onEntryUpdated and OA data is empty. So update latest task info
+09-23 17:54:40.348 16481 16809 W MediaSessionRecord: Ignoring call to destroyed session
+09-23 17:54:40.349 16481 16809 W MediaSessionRecord: Ignoring call to destroyed session
+09-23 17:54:40.372 17646 17646 D SubscreenNotificationListCoordinator: onAfterRenderList() isSubScreen = false, pluginLockMode = 0, doNotShowOnCover = false
+09-23 17:54:40.374 17646 17646 I DateTimeView: getTimeFormat
+09-23 17:54:40.377 17646 17646 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+09-23 17:54:40.378 17646 17646 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 252 mTempSmallHeight:0 -1|com.android.systemui|2114586824|charging_state|10048
+09-23 17:54:40.378 17646 17646 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 252 mTempSmallHeight:0 -1|com.android.systemui|2114586824|charging_state|10048
+09-23 17:54:40.381 17646 17646 I LockscreenNotificationIconsOnlyController: onNotificationInfoUpdated 0
+09-23 17:54:40.381 17646 17646 I AODNotificationManager: updateNotification() 
+09-23 17:54:40.381 17646 17646 D PluginAODManager: onNotificationInfoUpdated() 0
+09-23 17:54:40.382 17646 17646 I AODNotificationManager: updateVisibleNotifications: 0
+09-23 17:54:40.390 17646 18231 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+09-23 17:54:40.392 17646 18231 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+09-23 17:54:40.396 17646 17646 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+09-23 17:54:40.404 17646 17646 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+09-23 17:54:40.420 17646 17646 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 252 mTempSmallHeight:0 -1|com.android.systemui|2114586824|charging_state|10048
+09-23 17:54:40.420 17646 17646 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 252 mTempSmallHeight:0 -1|com.android.systemui|2114586824|charging_state|10048
+09-23 17:54:40.420 17646 17646 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 252 mTempSmallHeight:0 -1|com.android.systemui|2114586824|charging_state|10048
+09-23 17:54:40.420 17646 17646 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 252 mTempSmallHeight:0 -1|com.android.systemui|2114586824|charging_state|10048
+09-23 17:54:40.421 17646 17646 D View    : semSetBlurInfo, blurInfo : android.view.SemBlurInfo@8761805 {BLUR_MODE_WINDOW, mBlurRadius = 300, mBackgroundBlurColor = 0, mCornerRadiusTL = 126.0, mCornerRadiusTR = 126.0, mCornerRadiusBL = 126.0, mCornerRadiusBR = 126.0, mClipRectLeft = 0, mClipRectTop = 0, mClipRectRight = 2147483647, mClipRectBottom = 2147483647, mColorCurve = android.view.SemBlurInfo$ColorCurve@e77f05a {minX = 5.0, minY = 21.6, maxX = 250.0, maxY = 141.5, curveBias = -23.0, saturation = 0.4}}, com.android.systemui.statusbar.notification.row.NotificationBackgroundView{79d03b3 V.ED..... ......ID 0,0-1360,357 #7e0a016c com.android.systemui:id/backgroundNormal}
+09-23 17:54:40.426 17646 17646 D S.S.N.  : entryViewBound parent :-1|com.android.systemui|2114586824|charging_state|10048
+09-23 17:54:40.429 17646 17646 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+09-23 17:54:40.438 17646 17646 D SubscreenNotificationListCoordinator: onAfterRenderList() isSubScreen = false, pluginLockMode = 0, doNotShowOnCover = false
+09-23 17:54:40.439 17646 17646 I DateTimeView: getTimeFormat
+09-23 17:54:40.442 17646 17646 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+09-23 17:54:40.442 17646 17646 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 252 mTempSmallHeight:0 -1|com.android.systemui|2114586824|charging_state|10048
+09-23 17:54:40.442 17646 17646 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 252 mTempSmallHeight:0 -1|com.android.systemui|2114586824|charging_state|10048
+09-23 17:54:40.443 17646 17646 I LockscreenNotificationIconsOnlyController: onNotificationInfoUpdated 0
+09-23 17:54:40.443 17646 17646 I AODNotificationManager: updateNotification() 
+09-23 17:54:40.443 17646 17646 D PluginAODManager: onNotificationInfoUpdated() 0
+09-23 17:54:40.443 17646 17646 I AODNotificationManager: updateVisibleNotifications: 0
+09-23 17:54:40.460 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:40.465  1181  1181 D io_stats: !@   8,0 r 268903827 5599198848 w 81724468 1201393080 d 12742059 1030890664 f 2761050 6456642 iot 50931492 0 th 0 0 0 pt 0 inp 0 0 1468036.444
+09-23 17:54:40.466  1181  1181 D io_stats: !@ Write_top(KB): kworker/u16:5(23258) 76 vendor.samsung.(1741) 8
+09-23 17:54:40.521 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:40.564  6732  6732 I wpa_supplicant: Heartbeat 730
+09-23 17:54:40.650 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:40.709 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:40.726 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:40.733 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:40.747 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:40.841 16481 32577 D BSOHChargingDataCollector:  BSOH Sys-servce ... 
+09-23 17:54:40.841 16481 32577 D BSOHChargingDataCollector: performBatteryWork++
+09-23 17:54:40.841 16481 32577 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@dab1fed
+09-23 17:54:40.841 16481 32577 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+09-23 17:54:40.853 16481 32577 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:3.705, current:0.174218, soc:0.17, temperature:32.7, status:2, timestamp:1790175280853, voltage_chg:null}
+09-23 17:54:40.854 16481 32577 D BSOHChargingDataCollector: performBatteryWork--
+09-23 17:54:40.870 20575  2584 I NearbyMediums: No BLE Fast/GATT advertisements found in the latest cycle.
+09-23 17:54:40.870 20575  2584 I NearbyMediums: Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbySharing}
+09-23 17:54:40.914 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:41.061 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:41.121 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:41.250 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:41.310 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:41.326 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:41.333 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:41.347 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:41.381 16481 16809 D PowerManagerService: [api] setMasterBrightnessLimit : lowerLimit : -1  upperLimit : 1275  mMasterBrightnessLimitPeriod : 200 (uid: 1000 pid: 19583)
+09-23 17:54:41.381 16481 16741 D PowerManagerService: [api] BrightnessLimitRunnable done
+09-23 17:54:41.512 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:41.660 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:41.717 16481 22226 I AfterimageCompensationService: AfcThread mLuminance : 454 , AfpcPeriodCount : 438 , rotation : 0 , AOD : false
+09-23 17:54:41.717 16481 22226 D mAFPC_ABC: [READ] Start nativeDataRead : size : 1
+09-23 17:54:41.719 16481 22226 I SurfaceComposerClient: captureDisplay:Display-4630946315032985731
+09-23 17:54:41.721 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:41.727  1796  5016 I SurfaceFlinger: Capture layer list: 	 com.onetapvpn/com.onetapvpn.ui.MainActivity$_2493#527997(preserveDisplayColors:0)
+09-23 17:54:41.727  1796  5016 I SurfaceFlinger: Capture layer list: 	 StatusBar$_17646#437381(preserveDisplayColors:0)
+09-23 17:54:41.727  1796  5016 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_18188#527858(preserveDisplayColors:0)
+09-23 17:54:41.727  1796  5016 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_17646#437377(preserveDisplayColors:0)
+09-23 17:54:41.729  1796  2024 D SurfaceFlinger: [SEC_SF_EFFECTS] drawLayersInternal,1337, Rendering layer ScreenCaptureFillLayer at index 0
+09-23 17:54:41.729  1796  2024 D SurfaceFlinger: [SEC_SF_EFFECTS] drawLayersInternal,1337, Rendering layer com.onetapvpn/com.onetapvpn.ui.MainActivity$_2493#527997 at index 1
+09-23 17:54:41.729  1796  2024 D SurfaceFlinger: [SEC_SF_EFFECTS] drawLayersInternal,1337, Rendering layer StatusBar$_17646#437381 at index 2
+09-23 17:54:41.730  1796  2024 D SurfaceFlinger: [SEC_SF_EFFECTS] drawLayersInternal,1337, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_18188#527858 at index 3
+09-23 17:54:41.730  1796  2024 D SurfaceFlinger: [SEC_SF_EFFECTS] drawLayersInternal,1337, Rendering layer NavigationBar0$_17646#437377 at index 4
+09-23 17:54:41.743 16481 22226 D mAFPC_ABC: [READ] luminance = 454
+09-23 17:54:41.744 16481 22226 D mAFPC_ABC: [READ] w = 1440, h = 3120, s = 32, f = 4, s_size = 18370560, luminance = 454, count = 438, captureOrientation = 0
+09-23 17:54:41.822 16481 22226 E mAFPC_ABC: [READ] [TYPE : 0] saProcess : 0
+09-23 17:54:41.822 16481 22226 D mAFPC_ABC: [READ] END nativeDataRead
+09-23 17:54:41.842 16481 32577 D BSOHChargingDataCollector:  BSOH Sys-servce ... 
+09-23 17:54:41.842 16481 32577 D BSOHChargingDataCollector: performBatteryWork++
+09-23 17:54:41.842 16481 32577 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@dab1fed
+09-23 17:54:41.842 16481 32577 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+09-23 17:54:41.850 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:41.855 16481 32577 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:3.702, current:0.2125, soc:0.17, temperature:32.7, status:2, timestamp:1790175281855, voltage_chg:null}
+09-23 17:54:41.855 16481 32577 D BSOHChargingDataCollector: performBatteryWork--
+09-23 17:54:41.910 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:41.926 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:41.933 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:41.947 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:41.955 16481 16608 E Watchdog: !@Sync: 5584 heap(MB): 209 / 219 FD: 1717 Threads: 630 [2026-09-23 17:54:41.955]
+09-23 17:54:41.968 16481 20118 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 19037, isSameBssidAndFreq true
+09-23 17:54:41.971 16481 17097 E SemWifiLinkQualityMonitor: Too old or invalid TMI: currentTime=1790175281971 lastDateWindow=1790049144000
+09-23 17:54:41.998  1694 32490 I sensors-hal: handle_sns_std_sensor_event:90, light_cct: ts = 2992454774493303 ns; value = [44, 44, 192, 204, 25, 236, 92, 78, 22464, 0]
+09-23 17:54:42.111 17863 21085 D NxpPropExtn: detectExtField: exit
+09-23 17:54:42.260 17863  5116 D NxpPropExtn: detectExtField: exit
+09-23 17:54:42.321 17863 21167 D NxpPropExtn: detectExtField: exit
+09-23 17:54:42.450 17863  5300 D NxpPropExtn: detectExtField: exit
+09-23 17:54:42.480  1694 21967 I sensors-hal: handle_sns_std_sensor_event:131, [SSC_LIGHT] A: 42(42),c:112,b:236,m:13,cl:92,l:31,s:40,l0:22464,l1:1248,s0:7000,s1:0,acl:3,opr:0.79,f(r):80,u(bl):74,if:0,wi:0,si:0,po:0(N:0)
+09-23 17:54:42.510 17863  5434 D NxpPropExtn: detectExtField: exit
+09-23 17:54:42.526 17863 15631 D NxpPropExtn: detectExtField: exit
+09-23 17:54:42.533 17863  5675 D NxpPropExtn: detectExtField: exit
+09-23 17:54:42.547 17863  6516 D NxpPropExtn: detectExtField: exit
+09-23 17:54:42.711 17863 21085 D NxpPropExtn: detectExtField: exit
