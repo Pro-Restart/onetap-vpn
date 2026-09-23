@@ -4,6 +4,7 @@ import android.content.Context
 import android.util.Log
 import com.adguard.trusttunnel.AppNotifier
 import com.adguard.trusttunnel.DeepLink
+import com.adguard.trusttunnel.VpnPrepareActivity
 import com.adguard.trusttunnel.VpnService as TrustTunnelVpnService
 import com.onetapvpn.model.ServerProfile
 import java.io.File
@@ -35,6 +36,15 @@ class TrustTunnelEngine(private val context: Context) : VpnEngine, AppNotifier {
                 val queryLogFile = File(context.filesDir, "trusttunnel_query_log.dat")
                 TrustTunnelVpnService.setAppNotifier(queryLogFile, this@TrustTunnelEngine)
                 initialized = true
+            }
+
+            // The SDK's own sample app uses VpnPrepareActivity rather than
+            // relying only on a caller's VpnService.prepare() invocation. It
+            // blocks until Android confirms that the SDK service may establish
+            // its TUN interface, so it must run off the main thread.
+            if (!TrustTunnelVpnService.isPrepared(context)) {
+                Log.i(TAG, "Preparing VPN through TrustTunnel activity")
+                VpnPrepareActivity.start(context)
             }
 
             val config = DeepLink.decode(profile.rawLink)
