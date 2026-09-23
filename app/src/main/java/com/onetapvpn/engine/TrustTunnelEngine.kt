@@ -22,7 +22,7 @@ class TrustTunnelEngine(private val context: Context) : VpnEngine, AppNotifier {
     private var connected = false
     private var initialized = false
 
-    override suspend fun connect(profile: ServerProfile) = withContext(Dispatchers.IO) {
+    override suspend fun connect(profile: ServerProfile): Unit = withContext(Dispatchers.IO) {
         try {
             if (!initialized) {
                 TrustTunnelVpnService.initialize(context)
