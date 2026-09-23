@@ -23,31 +23,46 @@ class TrustTunnelEngine(private val context: Context) : VpnEngine, AppNotifier {
     private var initialized = false
 
     override suspend fun connect(profile: ServerProfile): Unit = withContext(Dispatchers.IO) {
+        Log.d(TAG, "connect() started, rawLink length=${profile.rawLink.length}")
+
         try {
             if (!initialized) {
+                Log.d(TAG, "calling TrustTunnelVpnService.initialize()...")
                 TrustTunnelVpnService.initialize(context)
                 val queryLogFile = File(context.filesDir, "trusttunnel_query_log.dat")
                 TrustTunnelVpnService.setAppNotifier(queryLogFile, this@TrustTunnelEngine)
                 initialized = true
+                Log.d(TAG, "initialize() OK")
             }
 
             val config = DeepLink.decode(profile.rawLink)
             Log.d(TAG, "Decoded config length=${config.length}")
-            Log.d(TAG, "Decoded config (sanitized)=${config.take(200)}...")
-    
+            Log.d(TAG, "Decoded config (sanitized)=${config.take(300)}")
+
+            Log.d(TAG, "calling TrustTunnelVpnService.start() with 30s timeout...")
             withTimeout(30_000) {
                 TrustTunnelVpnService.start(context, config)
             }
             Log.d(TAG, "TrustTunnelVpnService.start() returned successfully")
+
+            // Опрашиваем состояние 20 секунд — чтобы увидеть, меняется ли оно вообще
+            repeat(20) { i ->
+                delay(1000)
+                try {
+                    val st = TrustTunnelVpnService.state
+                    Log.d(TAG, "state after ${i + 1}s = $st")
+                } catch (t: Throwable) {
+                    Log.e(TAG, "state read failed: ${t.javaClass.simpleName}: ${t.message}", t)
+                }
+            }
         } catch (e: TimeoutCancellationException) {
-            Log.e(TAG, "TrustTunnelVpnService.start() timed out after 30s", e)
+            Log.e(TAG, "start() TIMED OUT after 30s — library is stuck", e)
             throw e
         } catch (t: Throwable) {
-            Log.e(TAG, "TrustTunnelVpnService.start() failed", t)
+            Log.e(TAG, "start() FAILED with ${t.javaClass.simpleName}: ${t.message}", t)
             throw t
         }
     }
-
     override suspend fun disconnect() = withContext(Dispatchers.IO) {
         TrustTunnelVpnService.stop(context)
         connected = false
