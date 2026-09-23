@@ -30,6 +30,26 @@
             <intent-filter>
                 <action android:name="android.net.VpnService" />
             </intent-filter>
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="vpn" />
+        </service>
+
+        <!-- Официальный VpnService от WireGuard-android (GoBackend). AmneziaWgEngine
+             через GoBackend поднимает TUN-интерфейс именно через ЭТОТ класс, а не
+             через AppVpnService выше — его нужно объявить отдельно, иначе GoBackend
+             не сможет запустить/забиндить свой сервис в рантайме. -->
+        <service
+            android:name="com.wireguard.android.backend.GoBackend$VpnService"
+            android:permission="android.permission.BIND_VPN_SERVICE"
+            android:exported="false"
+            android:foregroundServiceType="specialUse">
+            <intent-filter>
+                <action android:name="android.net.VpnService" />
+            </intent-filter>
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="vpn" />
         </service>
 
     </application>
