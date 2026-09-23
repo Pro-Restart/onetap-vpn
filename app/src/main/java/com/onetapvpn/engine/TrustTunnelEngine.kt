@@ -49,15 +49,4 @@ class TrustTunnelEngine(private val context: Context) : VpnEngine, AppNotifier {
     override fun onConnectionInfo(info: String) {
         Log.d(TAG, "TrustTunnel connection info: $info")
     }
-    override suspend fun connect(context: Context, profile: ServerProfile) {
-    Log.d("OneTapVPN", "TrustTunnelEngine: start connect with rawLink len=${profile.rawLink.length}")
-    try {
-        val config = DeepLink.decode(profile.rawLink)
-        Log.d("OneTapVPN", "TrustTunnelEngine: decoded config successfully")
-        TrustTunnelVpnService.start(context, config)
-        Log.d("OneTapVPN", "TrustTunnelEngine: TrustTunnelVpnService.start called")
-    } catch (e: Throwable) {
-        Log.e("OneTapVPN", "TrustTunnelEngine: Error during connect", e)
-    }
-}
 }
