@@ -56,5 +56,6 @@ dependencies {
     // Официальная открытая библиотека WireGuard-android для AmneziaWG.
     implementation("com.wireguard.android:tunnel:1.0.20230706")
 
+implementation("com.google.android.material:material:1.12.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
 }
