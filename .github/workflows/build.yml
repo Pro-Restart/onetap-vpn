@@ -1,7 +1,7 @@
 name: Build APK
 
 on:
-  workflow_dispatch:   # позволяет запустить сборку вручную кнопкой на GitHub
+  workflow_dispatch:
   push:
     branches: [ main ]
 
@@ -17,15 +17,14 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      # В проекте нет gradle-wrapper.jar (бинарный файл, который нельзя было
-      # сгенерировать без доступа в сеть) — поэтому ставим Gradle напрямую
-      # этим экшеном вместо использования ./gradlew.
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.7'
 
       - name: Build debug APK
+        env:
+          GPR_KEY: ${{ secrets.GPR_KEY }}
         run: gradle assembleDebug
 
       - name: Upload APK

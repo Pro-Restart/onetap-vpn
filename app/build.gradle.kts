@@ -13,9 +13,6 @@ android {
         targetSdk = 34
         versionCode = 2
         versionName = "0.2.0"
-
-        // Пока библиотека TrustTunnel извлечена только под arm64-v8a —
-        // см. README о недостающих ABI.
     }
 
     buildTypes {
@@ -50,10 +47,9 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.ui:ui-tooling-preview")
 
-implementation("com.adguard.trusttunnel:trusttunnel-client-android:1.1.5-rc.6")
-
-    // Официальная открытая библиотека WireGuard-android для AmneziaWG.
     implementation("com.wireguard.android:tunnel:1.0.20230706")
+
+    implementation("com.adguard.trusttunnel:trusttunnel-client-android:1.1.5-rc.6")
 
 implementation("com.google.android.material:material:1.12.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")

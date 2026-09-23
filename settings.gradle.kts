@@ -14,11 +14,12 @@ dependencyResolutionManagement {
         maven {
             url = uri("https://maven.pkg.github.com/TrustTunnel/TrustTunnelClient")
             credentials {
-                username = "" // не используется, но поле обязательно
+                username = ""
                 password = providers.gradleProperty("gpr.key")
                     .orElse(providers.environmentVariable("GPR_KEY"))
                     .getOrElse("")
             }
+        }
     }
 }
 
