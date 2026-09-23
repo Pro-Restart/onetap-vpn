@@ -9,6 +9,8 @@ import com.onetapvpn.model.ServerProfile
 import java.io.File
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import kotlinx.coroutines.withTimeout
+import kotlinx.coroutines.TimeoutCancellationException
 
 class TrustTunnelEngine(private val context: Context) : VpnEngine, AppNotifier {
 
@@ -21,17 +23,29 @@ class TrustTunnelEngine(private val context: Context) : VpnEngine, AppNotifier {
     private var initialized = false
 
     override suspend fun connect(profile: ServerProfile) = withContext(Dispatchers.IO) {
-        if (!initialized) {
-            TrustTunnelVpnService.initialize(context)
-            val queryLogFile = File(context.filesDir, "trusttunnel_query_log.dat")
-            TrustTunnelVpnService.setAppNotifier(queryLogFile, this@TrustTunnelEngine)
-            initialized = true
+        try {
+            if (!initialized) {
+                TrustTunnelVpnService.initialize(context)
+                val queryLogFile = File(context.filesDir, "trusttunnel_query_log.dat")
+                TrustTunnelVpnService.setAppNotifier(queryLogFile, this@TrustTunnelEngine)
+                initialized = true
+            }
+
+            val config = DeepLink.decode(profile.rawLink)
+            Log.d(TAG, "Decoded config length=${config.length}")
+            Log.d(TAG, "Decoded config (sanitized)=${config.take(200)}...")
+    
+            withTimeout(30_000) {
+                TrustTunnelVpnService.start(context, config)
+            }
+            Log.d(TAG, "TrustTunnelVpnService.start() returned successfully")
+        } catch (e: TimeoutCancellationException) {
+            Log.e(TAG, "TrustTunnelVpnService.start() timed out after 30s", e)
+            throw e
+        } catch (t: Throwable) {
+            Log.e(TAG, "TrustTunnelVpnService.start() failed", t)
+            throw t
         }
-
-        val config = DeepLink.decode(profile.rawLink)
-        Log.d(TAG, "Decoded config length=${config.length}")
-
-        TrustTunnelVpnService.start(context, config)
     }
 
     override suspend fun disconnect() = withContext(Dispatchers.IO) {
