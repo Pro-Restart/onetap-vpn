@@ -45,15 +45,11 @@ class TrustTunnelEngine(private val context: Context) : VpnEngine, AppNotifier {
             }
             Log.d(TAG, "TrustTunnelVpnService.start() returned successfully")
 
-            // Опрашиваем состояние 20 секунд — чтобы увидеть, меняется ли оно вообще
+            // Просто ждём 20 секунд и пишем heartbeat — чтобы увидеть,
+            // появятся ли за это время логи от самой библиотеки
             repeat(20) { i ->
                 delay(1000)
-                try {
-                    val st = TrustTunnelVpnService.state
-                    Log.d(TAG, "state after ${i + 1}s = $st")
-                } catch (t: Throwable) {
-                    Log.e(TAG, "state read failed: ${t.javaClass.simpleName}: ${t.message}", t)
-                }
+                Log.d(TAG, "waiting... ${i + 1}s after start()")
             }
         } catch (e: TimeoutCancellationException) {
             Log.e(TAG, "start() TIMED OUT after 30s — library is stuck", e)
