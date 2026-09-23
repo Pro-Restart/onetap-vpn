@@ -7,10 +7,12 @@ import com.adguard.trusttunnel.DeepLink
 import com.adguard.trusttunnel.VpnService as TrustTunnelVpnService
 import com.onetapvpn.model.ServerProfile
 import java.io.File
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.coroutines.withTimeout
 import kotlinx.coroutines.TimeoutCancellationException
+
 
 class TrustTunnelEngine(private val context: Context) : VpnEngine, AppNotifier {
 
